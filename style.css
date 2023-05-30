@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+
+:root{
+    --cor-primaria: #ed3c2f;
+    --cor-secundaria: #26040f;
+    --cor-terciaria: #f09b95;
+    --cor-hover:  #400719;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-decoration: none;
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    font-family: 'Epilogue', sans-serif
+}
+
+.grife {
+    color: var(--cor-primaria);
+}
+
+.apresentacao{
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo{
+height: 30%;
+width: 50%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 53,125rem;
+}
+
+.apresentacao__links{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao__links__link{
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+}
+
+.apresentacao__links__link:hover{
+    background-color: var(--cor-hover);
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+}
+
+.apresentacao__imagem{
+border-radius: 20%;
+width: 50%;
+}
+
+.rodape{
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: 40px;
+    text-align: center;
+    }
+
+.cabecalho{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: 40px;
+    text-align: center;
+}
+
+.cabecalho__menu{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho__menu__link{
+        text-decoration: none;
+        text-decoration-color: var(--cor-secundaria);
+}

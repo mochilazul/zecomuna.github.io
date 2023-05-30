@@ -1,0 +1,24 @@
+:root{
+    --cor-primaria: #FF0000;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #ffffff;
+}
+
+:root{
+    --cor-primaria: #D3756B;
+    --cor-secundaria: #A75D5D;
+    --cor-terciaria: #FFC3A1;
+}
+
+:root{
+    --cor-primaria: #A64B2A;
+    --cor-secundaria: #8E3200;
+    --cor-terciaria: #FFEBC1;
+}
+
+:root{
+    --cor-primaria: #ed3c2f;
+    --cor-secundaria: #26040f;
+    --cor-terciaria: #f09b95;
+    --cor-hover: #400719;
+}
